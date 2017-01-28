@@ -8,6 +8,7 @@ go get github.com/huberts90/go-link-scraper
 
 ## Usage
 
+```
 package main
 
 import (
@@ -44,3 +45,4 @@ func main() {
 		}
 	}
 }
+```
