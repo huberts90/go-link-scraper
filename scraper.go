@@ -20,7 +20,7 @@ type Links struct {
 
 func Crawl(id int, jobs <-chan string, results chan<- []byte, finished chan<- bool) {
 	for url := range jobs {
-		fmt.Println("Worker ", id, " get to search ", url)
+		fmt.Println("Worker ", id, " got to search ", url)
 		resp, err := http.Get(url)
 
 	  if err != nil {

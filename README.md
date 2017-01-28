@@ -12,7 +12,7 @@ go get github.com/huberts90/go-link-scraper
 package main
 
 import (
-  "github.com/huberts90/scraper"
+  "github.com/huberts90/go-link-scraper"
   "os"
   "fmt"
 )
